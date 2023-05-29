@@ -22,7 +22,7 @@
 size_t	ft_strlen(const char *str);
 void	*ft_memmove(void *dest, const void *src, size_t n);
 char	*ft_strchr(const char *s, int c);
-char	*ft_strjoin(char *s1, char *s2);
+char	*ft_strjoin_gnl(char *s1, char *s2);
 char	*get_next_line(int fd);
 char	*makeline(char *stash);
 char	*getstash(int fd, char *stash, ssize_t *len);
